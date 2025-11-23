@@ -10,6 +10,7 @@ Omega_L = 0.685
 Omega_r = 9.24e-5            # radiation density today
 
 # 1)H(z)
+
 def H_of_z(z):
     return H0 * np.sqrt(Omega_m*(1+z)**3 +
                         Omega_r*(1+z)**4 +
