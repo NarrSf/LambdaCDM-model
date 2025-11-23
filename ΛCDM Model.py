@@ -41,7 +41,7 @@ t0_sec, err = quad(dt_dz, 0, z_max,
                    epsabs=0, epsrel=1e-8, limit=500)
 Gyr = 3.154e16               # seconds in one Gyr
 t0_Gyr = t0_sec / Gyr
-print(f"Age of Universe = {t0_Gyr:.4f} Gyr")   # ≈ 13.8 Gyr
+print(f"Age of Universe = {t0_Gyr:.4f} Gyr")  
 
 # 3)Solve for a(t) via ODE
 
